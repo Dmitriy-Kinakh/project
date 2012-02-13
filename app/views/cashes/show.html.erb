@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Comment:</b>
+  <%= @cash.comment %>
+</p>
+
+<p>
+  <b>Money:</b>
+  <%= @cash.money %>
+</p>
+
+<p>
+  <b>The data name:</b>
+  <%= @cash.the_data_name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @cash.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_cash_path(@cash) %> |
+<%= link_to 'Back', cashes_path %>

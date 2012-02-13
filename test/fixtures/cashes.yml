@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  comment: MyString
+  money: 1
+  the_data_name: 
+  status: MyString
+
+two:
+  comment: MyString
+  money: 1
+  the_data_name: 
+  status: MyString
